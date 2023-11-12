@@ -36,6 +36,9 @@
 # else:
 #     print("12 katta 12 dan")
 
+
+print("hammaga salom")
+
  
 
 
