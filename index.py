@@ -41,7 +41,12 @@
 
 # 14 - dars lug'atlar bilan ishlash
 
-
+cars={
+      "model":"ferrari",
+      "tur":"sport car",
+      "rangi":"qizil"
+      }
+print(cars["rangi"])
 
  
 
