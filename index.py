@@ -37,7 +37,10 @@
 #     print("12 katta 12 dan")
 
 
-print("hammaga salom")
+# print("hammaga salom")
+
+# 14 - dars lug'atlar bilan ishlash
+
 
  
 
