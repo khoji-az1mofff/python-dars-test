@@ -41,20 +41,27 @@
 
 # 14 - dars lug'atlar bilan ishlash
 
-cars={
-      "model":"ferrari",
-      "tur":"sport car",
-      "rangi":"qizil"
-      }
-print(cars["rangi"])
+# cars={
+#       "model":"ferrari",
+#       "tur":"sport car",
+#       "rangi":"qizil"
+#       }
+# print(cars["rangi"])
 
+mevalar_narxi={'olma':5000,
+               "o'rik":7000,
+               "shaftoli":12000,
+               "apelsin":14000,
+               "nok":7000
+               }
+# print(mevalar_narxi)
+
+# for meva in mevalar_narxi:
+#     print(meva)
+# mevalar_narxi["olcha"]=17000
+# print(mevalar_narxi )
+del mevalar_narxi["apelsin"]
+print(mevalar_narxi)
  
-
-
-
-
-
-       
-    
 
     
