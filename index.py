@@ -48,21 +48,36 @@
 #       }
 # print(cars["rangi"])
 
-mevalar_narxi={'olma':5000,
-               "o'rik":7000,
-               "shaftoli":12000,
-               "apelsin":14000,
-               "nok":7000
-               }
+# mevalar_narxi={'olma':5000,
+#                "o'rik":7000,
+#                "shaftoli":12000,
+#                "apelsin":14000,
+#                "nok":7000
+#                }
 # print(mevalar_narxi)
 
 # for meva in mevalar_narxi:
 #     print(meva)
 # mevalar_narxi["olcha"]=17000
 # print(mevalar_narxi )
-del mevalar_narxi["apelsin"]
-print(mevalar_narxi)
+# del mevalar_narxi["apelsin"]
+# print(mevalar_narxi)
 
-print("mana yana boshladik azizlar")
+# print("mana yana boshladik azizlar ")
 
+# lug'atlar bilan ishlash 2- qism
+
+talaba={
+    "ism":"Hojiakbar",
+    "familiya":"Azimov",
+    "fakultet":"ISE_N-23UA",
+    "yosh":18,
+    "kurs":4
+}
+print(talaba.values())
+
+# for kalit,qiymat in talaba.items():
+#     print(f"kalit: {kalit}")
+    # print(f"Key:{key}")
+    # print(f"Value:{value}\n")
     
