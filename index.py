@@ -62,6 +62,7 @@ mevalar_narxi={'olma':5000,
 # print(mevalar_narxi )
 del mevalar_narxi["apelsin"]
 print(mevalar_narxi)
- 
+
+print("mana yana boshladik azizlar")
 
     
