@@ -93,3 +93,16 @@
 #     print(tel.title())
 
 # NESTING
+
+# son= int(input("son kirit : "))
+# print(son)
+
+# ism="hojiakbar"
+# familiya="azimov"
+# print(f"{ism} ning familiyasi {familiya}")
+
+son=1
+while son<=5:
+    print(son,end=' ')
+    son+=1
+   
