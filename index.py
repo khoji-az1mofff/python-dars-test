@@ -81,13 +81,15 @@
     # print(f"Key:{key}")
     # print(f"Value:{value}\n")
     
-telefonlar={
-    "ali":"iphone x",
-    "orif":"samsung S10",
-    "sobir":"nokia 1110",
-    "vali":"lg x5 cam"
-}
-print(telefonlar)
+# telefonlar={
+#     "ali":"iphone x",
+#     "orif":"samsung S10",
+#     "sobir":"nokia 1110",
+#     "vali":"lg x5 cam"
+# }
+# print(telefonlar)
 
-for ism , tel in telefonlar.items():
-    print(f"{ism.title()}ning telefoni {tel}")
+# for  tel in telefonlar.values ():
+#     print(tel.title())
+
+# NESTING
