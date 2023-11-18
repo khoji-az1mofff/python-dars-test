@@ -101,8 +101,10 @@
 # familiya="azimov"
 # print(f"{ism} ning familiyasi {familiya}")
 
-son=1
-while son<=5:
-    print(son,end=' ')
-    son+=1
+# son=1
+# while son<=5:
+#     print(son,end=' ')
+#     son+=1
    
+# va nihoyat muommolarni hal qildim va yana boshladik
+# print("hammaga salom men qaytdim")
