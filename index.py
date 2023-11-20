@@ -136,9 +136,18 @@
 #     print(f"{son} ning darajasi {son**2} ga teng")
 # daraja(float(input("bu yerga son kiriting : ")))
 
-def ism_familiya_age(ism,familiya,age):
-    """foydalanuvchining ism va familiyasini jamlab chiqaruvchi function"""
-    print(f"Foydalanuvchiling ismi : {ism.title()}\n"
-          f"Foydalanuvchining familiyasi : {familiya.title()}\n"
-          f"Foydalanuvchining yoshi : {age}")
-ism_familiya_age("hasan","odilov",18)
+# def ism_familiya_age(ism,familiya,age):
+#     """foydalanuvchining ism va familiyasini jamlab chiqaruvchi function"""
+#     print(f"Foydalanuvchiling ismi : {ism.title()}\n"
+#           f"Foydalanuvchining familiyasi : {familiya.title()}\n"
+#           f"Foydalanuvchining yoshi : {age}")
+# ism_familiya_age("hasan","odilov",18)
+
+# def yosh_aniqla(ism,tugulgan_yil):
+#     """foydalanuvchuning ismi tug'ulgan yilini oladi va ism,yil va yoshni chiqaradi"""
+#     print(f"foydalanuvchining ismi : {ism.title()}\n"
+#           f"foydalanuvchining tug'ulgan yili : {tugulgan_yil}\n"
+#           f"foydalanucvhining yoshi : {2023-tugulgan_yil}")
+# yosh_aniqla(input("ismongizni kiriting : "),int(input("tug'ulgan yilingizni kiriting : ")))
+
+
