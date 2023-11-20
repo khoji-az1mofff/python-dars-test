@@ -108,3 +108,17 @@
    
 # va nihoyat muommolarni hal qildim va yana boshladik
 # print("hammaga salom men qaytdim")
+# son=1
+# while son<=5:
+#     print(son, end=" ")
+#     son=son+1
+# print("dastur tugadi ")
+
+print("Kiritilgan soni kivadratini aniqlovchi dastur: ")
+savol="istalgan son kiriting"
+savol+=("dasturni to'xtatish uchun 'exit' deb yozing: ")
+qiymat=''
+while qiymat != 'exit':
+    qiymat=input(savol)
+    if qiymat != 'exit':
+        print(float(qiymat)**2)
