@@ -136,8 +136,9 @@
 #     print(f"{son} ning darajasi {son**2} ga teng")
 # daraja(float(input("bu yerga son kiriting : ")))
 
-def ism_familiya(ism,familiya):
+def ism_familiya_age(ism,familiya,age):
     """foydalanuvchining ism va familiyasini jamlab chiqaruvchi function"""
     print(f"Foydalanuvchiling ismi : {ism.title()}\n"
-          f"Foydalanuvchining familiyasi : {familiya.title()}")
-ism_familiya("hasan","odilov")
+          f"Foydalanuvchining familiyasi : {familiya.title()}\n"
+          f"Foydalanuvchining yoshi : {age}")
+ism_familiya_age("hasan","odilov",18)
