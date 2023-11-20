@@ -114,11 +114,14 @@
 #     son=son+1
 # print("dastur tugadi ")
 
-print("Kiritilgan soni kivadratini aniqlovchi dastur: ")
-savol="istalgan son kiriting"
-savol+=("dasturni to'xtatish uchun 'exit' deb yozing: ")
-qiymat=''
-while qiymat != 'exit':
-    qiymat=input(savol)
-    if qiymat != 'exit':
-        print(float(qiymat)**2)
+# print("Kiritilgan soni kivadratini aniqlovchi dastur:  ")
+# savol="istalgan son kiriting"
+# savol+=("dasturni to'xtatish uchun 'exit' deb yozing: ")
+# qiymat=''
+# while qiymat != 'exit':
+#     qiymat=input(savol)
+#     if qiymat != 'exit':
+#         print(float(qiymat)**2)
+
+# whileni keyinroq kerak bolganda qilamiz zerikarli ekan shunchun endi functionga o'tamiz
+# FUNCTION
