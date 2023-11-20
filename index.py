@@ -125,3 +125,8 @@
 
 # whileni keyinroq kerak bolganda qilamiz zerikarli ekan shunchun endi functionga o'tamiz
 # FUNCTION
+
+def salom_ber():
+    """salom beruvchi function"""
+    print("assalomu alaykum")
+salom_ber()
