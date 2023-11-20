@@ -126,7 +126,12 @@
 # whileni keyinroq kerak bolganda qilamiz zerikarli ekan shunchun endi functionga o'tamiz
 # FUNCTION
 
-def salom_ber():
-    """salom beruvchi function"""
-    print("assalomu alaykum")
-salom_ber()
+# def salom_ber():
+#     """salom beruvchi function"""
+#     print("assalomu alaykum")
+# salom_ber()
+
+def daraja(son):
+    """kiritilgan soni darajasini aniqlovchi function"""
+    print(f"{son} ning darajasi {son**2} ga teng")
+daraja(float(input("bu yerga son kiriting : ")))
