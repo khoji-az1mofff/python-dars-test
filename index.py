@@ -150,4 +150,11 @@
 #           f"foydalanucvhining yoshi : {2023-tugulgan_yil}")
 # yosh_aniqla(input("ismongizni kiriting : "),int(input("tug'ulgan yilingizni kiriting : ")))
 
+def toliq_ism_yasa(ism,familiya):
+    toliq_ism = f"{ism} {familiya}"
+    return toliq_ism
+talaba=toliq_ism_yasa("olim","hasanov")
+print(talaba)
+
+
 
