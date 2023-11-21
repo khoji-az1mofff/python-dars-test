@@ -150,11 +150,36 @@
 #           f"foydalanucvhining yoshi : {2023-tugulgan_yil}")
 # yosh_aniqla(input("ismongizni kiriting : "),int(input("tug'ulgan yilingizni kiriting : ")))
 
-def toliq_ism_yasa(ism,familiya):
-    toliq_ism = f"{ism} {familiya}"
-    return toliq_ism
-talaba=toliq_ism_yasa("olim","hasanov")
-print(talaba)
+# def toliq_ism_yasa(ism,familiya):
+#     toliq_ism = f"{ism} {familiya}"
+#     return toliq_ism
+# talaba=toliq_ism_yasa("olim","hasanov")
+# print(talaba)
+
+def massiv_ortacha_qiymat(massiv, k, l):
+    if k < 0 or l >= len(massiv) or k > l:
+        return None
+    total = 0
+    count = 0
+    for i in range(k, l + 1):
+        total += massiv[i]
+        count += 1
+
+    if count == 0:
+        return None
+
+    ortacha_qiymat = total / count
+    return ortacha_qiymat
+massiv = range(101)
+k = int(input("K elementini kitiring : "))
+l = int(input("L elementini kitiring : "))
+natija = massiv_ortacha_qiymat(massiv, k, l)
+
+if natija is not None:
+    print(f"{k}-dan {l}-gacha bo'lgan elementlar ortacha qiymati: {natija}")
+else:
+    print("Xato!")
+
 
 
 
