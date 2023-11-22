@@ -180,13 +180,18 @@
 # else:
 #     print("Xato!")
 
-def toliq_ism_yasa(ism,familiya):
-    """toliq ism va familiyani oladigon function"""
-    toliq_ism=f"{ism} {familiya}"
-    return toliq_ism
-talaba1=toliq_ism_yasa("odilov","alisher")
-talaba2=toliq_ism_yasa("odilov","ozodbek")
-print(talaba1)
+# def toliq_ism_yasa(ism,familiya):
+#     """toliq ism va familiyani oladigon function"""
+#     toliq_ism=f"{ism} {familiya}"
+#     return toliq_ism
+# talaba1=toliq_ism_yasa("odilov","alisher")
+# talaba2=toliq_ism_yasa("odilov","ozodbek")
+# print(talaba2)
+
+
+# def hisobla(son):
+#     print(son**2)
+# hisobla(float(input("son kiriting: ")))
 
 
 
