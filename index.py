@@ -193,5 +193,12 @@
 #     print(son**2)
 # hisobla(float(input("son kiriting: ")))
 
+# def ism_familiya_age(ism,familiya,age):
+#     """foydalanuvchining ismi , familiyasi va age sini chiqaruvchi function"""
+#     print(f"Foydalanuvchining ismi : {ism}\n"
+#           f"Foydalanuvchingnin familiyasi : {familiya}\n"
+#           f"Foydalanuvchining yoshi : {age}")
+# ism_familiya_age("Hojikabr","Azimov",18)
+
 
 
