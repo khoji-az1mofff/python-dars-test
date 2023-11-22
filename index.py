@@ -156,30 +156,37 @@
 # talaba=toliq_ism_yasa("olim","hasanov")
 # print(talaba)
 
-def massiv_ortacha_qiymat(massiv, k, l):
-    if k < 0 or l >= len(massiv) or k > l:
-        return None
-    total = 0
-    count = 0
-    for i in range(k, l + 1):
-        total += massiv[i]
-        count += 1
+# def massiv_ortacha_qiymat(massiv, k, l):
+#     if k < 0 or l >= len(massiv) or k > l:
+#         return None
+#     total = 0
+#     count = 0
+#     for i in range(k, l + 1):
+#         total += massiv[i]
+#         count += 1
 
-    if count == 0:
-        return None
+#     if count == 0:
+#         return None
 
-    ortacha_qiymat = total / count
-    return ortacha_qiymat
-massiv = range(101)
-k = int(input("K elementini kitiring : "))
-l = int(input("L elementini kitiring : "))
-natija = massiv_ortacha_qiymat(massiv, k, l)
+#     ortacha_qiymat = total / count
+#     return ortacha_qiymat
+# massiv = range(101)
+# k = int(input("K elementini kitiring : "))
+# l = int(input("L elementini kitiring : "))
+# natija = massiv_ortacha_qiymat(massiv, k, l)
 
-if natija is not None:
-    print(f"{k}-dan {l}-gacha bo'lgan elementlar ortacha qiymati: {natija}")
-else:
-    print("Xato!")
+# if natija is not None:
+#     print(f"{k}-dan {l}-gacha bo'lgan elementlar ortacha qiymati: {natija}")
+# else:
+#     print("Xato!")
 
+def toliq_ism_yasa(ism,familiya):
+    """toliq ism va familiyani oladigon function"""
+    toliq_ism=f"{ism} {familiya}"
+    return toliq_ism
+talaba1=toliq_ism_yasa("odilov","alisher")
+talaba2=toliq_ism_yasa("odilov","ozodbek")
+print(talaba1)
 
 
 
