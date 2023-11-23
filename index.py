@@ -284,3 +284,6 @@
 #         yigindi+=son
 #     return yigindi
 # print(summa(2,4394234023985174391342875874361973497381))
+def summa(*sonlar):
+    return sum(sonlar)
+print(summa(2,4394234023985174391342875874361973497381))
