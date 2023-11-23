@@ -229,44 +229,51 @@
 
 #  
 
-def avto_info(kompaniya,model,rangi,korobka,yili,narxi):
-    avto={
-        "kompaniya":kompaniya,
-        "model":model,
-        "rangi":rangi,
-        "korobka":korobka,
-        "yili":yili,
-        "narxi":narxi
-    }
-    return avto
-print("Saytimizda avtolar ro'yxatini shakillantiramiz.")
-avtolar=[]
-while True:
-    print("\nQuyidagi ma'lumotlarni kiriting: \n",end='')
-    kompaniya=input("Ishlab chiqaruvchi: ")        
-    model=input("Mashina turi: ")        
-    rangi=input("Mashina rangi: ")        
-    korobka=input("Avto yoki mexanika: ")        
-    yili=int(input("Yilini kiriting: "))      
-    narxi=int(input("Narxini kiriting: "))   
-    avtolar.append(avto_info(kompaniya,model,rangi,korobka,yili,narxi))
-    javob=input("Yana Mashina qo'shasizmi ? (ha/yo'q): ")
-    if javob=="yo'q":
-        break
-print("\nSalonimizdagi mashinalar: ")
-for avto in avtolar:
-    if avto["narxi"]:
-        narh=avto["narxi"]
-    else:
-        narh="Noma'lum"
-    print(f"Mashinaning rangi: {avto['kompaniya'].title()}\n"
-          f"Mashinaning turi: {avto['model'].title()}\n"
-          f"Mashinaning rangi: {avto['rangi']}\n"
-          f"Mashina mexanika yoki avto: {avto['korobka'].title()}\n"
-          f"Mashina ishlab chiqarilgan yili: {avto['yili']}\n"
-          f"Mashinaning narxi: {avto['narxi']}$")
+# def avto_info(kompaniya,model,rangi,korobka,yili,narxi):
+#     avto={
+#         "kompaniya":kompaniya,
+#         "model":model,
+#         "rangi":rangi,
+#         "korobka":korobka,
+#         "yili":yili,
+#         "narxi":narxi
+#     }
+#     return avto
+# print("Saytimizda avtolar ro'yxatini shakillantiramiz.")
+# avtolar=[]
+# while True:
+#     print("\nQuyidagi ma'lumotlarni kiriting: \n",end='')
+#     kompaniya=input("Ishlab chiqaruvchi: ")        
+#     model=input("Mashina turi: ")        
+#     rangi=input("Mashina rangi: ")        
+#     korobka=input("Avto yoki mexanika: ")        
+#     yili=int(input("Yilini kiriting: "))      
+#     narxi=int(input("Narxini kiriting: "))   
+#     avtolar.append(avto_info(kompaniya,model,rangi,korobka,yili,narxi))
+#     javob=input("Yana Mashina qo'shasizmi ? (ha/yo'q): ")
+#     if javob=="yo'q":
+#         break
+# print("\nSalonimizdagi mashinalar: ")
+# for avto in avtolar:
+#     if avto["narxi"]:
+#         narh=avto["narxi"]
+#     else:
+#         narh="Noma'lum"
+#     print(f"Mashinaning rangi: {avto['kompaniya'].title()}\n"
+#           f"Mashinaning turi: {avto['model'].title()}\n"
+#           f"Mashinaning rangi: {avto['rangi']}\n"
+#           f"Mashina mexanika yoki avto: {avto['korobka'].title()}\n"
+#           f"Mashina ishlab chiqarilgan yili: {avto['yili']}\n"
+#           f"Mashinaning narxi: {avto['narxi']}$")
 
 
-
-
-
+def bahola(ismlar):
+    baholar={}
+    while ismlar:
+        ism=ismlar.pop()
+        baho=input(f"Talaba {ism.title()} ning bahosini kiriting: ")
+        baholar[ism]=int(baho)
+    return baholar
+talabalar=['ozodbek','doniyor','oyatillo','hojiakbar']
+baholar=bahola(talabalar)
+print(baholar)
