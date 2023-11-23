@@ -200,5 +200,17 @@
 #           f"Foydalanuvchining yoshi : {age}")
 # ism_familiya_age("Hojikabr","Azimov",18)
 
+# def toliq_ism_yarat(ism,familiya,otasining_ismi=''):
+#     """to'liq ism yaratuvchi funksiya"""
+#     if otasining_ismi:
+#         toliq_ism=f"{ism} {otasining_ismi} {familiya}"
+#     else:
+#         toliq_ism=f"{ism} {familiya}"
+#     return toliq_ism
+# talaba1=toliq_ism_yarat("Hojiakbar","Azimov","Oybek o'g'li")
+# talaba2=toliq_ism_yarat("Hojiakbar","Azimov")
+# print(talaba2)
+        
+
 
 
