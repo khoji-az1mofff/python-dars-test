@@ -227,6 +227,16 @@
 # mashinalar=[mashina1,mashina2]
 # print("bizning online bozorda mavjuda mashinalar : ")
 
+# def oraliq(min,max):
+#     sonlar=[]
+#     while min<max:
+#         sonlar.append(min)
+#         min+=1
+#     return sonlar
+# print(oraliq(0,19))
+# print(oraliq(19,49))
+        
+
 
 
 
