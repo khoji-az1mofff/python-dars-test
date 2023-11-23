@@ -266,7 +266,6 @@ for avto in avtolar:
           f"Mashina ishlab chiqarilgan yili: {avto['yili']}\n"
           f"Mashinaning narxi: {avto['narxi']}$")
 
-       
 
 
 
