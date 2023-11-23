@@ -267,13 +267,20 @@
 #           f"Mashinaning narxi: {avto['narxi']}$")
 
 
-def bahola(ismlar):
-    baholar={}
-    while ismlar:
-        ism=ismlar.pop()
-        baho=input(f"Talaba {ism.title()} ning bahosini kiriting: ")
-        baholar[ism]=int(baho)
-    return baholar
-talabalar=['ozodbek','doniyor','oyatillo','hojiakbar']
-baholar=bahola(talabalar)
-print(baholar)
+# def bahola(ismlar):
+#     baholar={}
+#     while ismlar:
+#         ism=ismlar.pop()
+#         baho=input(f"Talaba {ism.title()} ning bahosini kiriting: ")
+#         baholar[ism]=int(baho)
+#     return baholar
+# talabalar=['ozodbek','doniyor','oyatillo','hojiakbar']
+# baholar=bahola(talabalar)
+# print(baholar)
+
+# def summa(*sonlar):
+#     yigindi=0
+#     for son in sonlar:
+#         yigindi+=son
+#     return yigindi
+# print(summa(2,4394234023985174391342875874361973497381))
