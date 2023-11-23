@@ -201,7 +201,7 @@
 # ism_familiya_age("Hojikabr","Azimov",18)
 
 # def toliq_ism_yarat(ism,familiya,otasining_ismi=''):
-#     """to'liq ism yaratuvchi funksiya"""
+#     """  """
 #     if otasining_ismi:
 #         toliq_ism=f"{ism} {otasining_ismi} {familiya}"
 #     else:
@@ -211,6 +211,22 @@
 # talaba2=toliq_ism_yarat("Hojiakbar","Azimov")
 # print(talaba2)
         
+
+# def avto_info(kompaniya,model,rangi,korobka,yili,narxi):
+#     avto={
+#         "kompaniya":kompaniya,
+#         "model":model,
+#         "rangi":rangi,
+#         "korobka":korobka,
+#         "yili":yili,
+#         "narxi":narxi
+#     }
+#     return avto
+# mashina1=avto_info("GM","Gentra","qora","mexanika",2005,30000)
+# mashina2=avto_info("GM","Lasetti","oq","avto",1999,34000)
+# mashinalar=[mashina1,mashina2]
+# print("bizning online bozorda mavjuda mashinalar : ")
+
 
 
 
