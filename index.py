@@ -287,6 +287,25 @@
 # def summa(*sonlar):
 #     return sum(sonlar)
 # print(summa(2,4394234023985174391342875874361973497381))
-def summa(x,y,*sonlar):
-    return x+y+sum(sonlar)
-print(summa(34,34,2))
+#  
+# import salom as s
+
+# salom_ber_=s.salom_ber('muhammadmirzo')
+# from salom import *
+
+# salom_ber("muqaddam ")
+
+# import math
+
+# print(math.pow(5,2))
+
+import random as r
+
+# son=r.randint(1,100)
+# print(son)
+
+ismlar=['94','95','99','91']
+ism=r.choice(ismlar)
+print(ism)
+
+  
