@@ -304,7 +304,7 @@ import random as r
 # son=r.randint(1,100)
 # print(son)
 
-ismlar=['94','95','99','91']
+ismlar=["Husniddin","Muhammad","Hojiakbar","Sarbarbek","To'lqinov"]
 ism=r.choice(ismlar)
 print(ism)
 
