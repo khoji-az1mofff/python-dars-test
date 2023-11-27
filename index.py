@@ -299,13 +299,14 @@
 
 # print(math.pow(5,2))
 
-import random as r
+# import random as r
 
 # son=r.randint(1,100)
 # print(son)
 
-ismlar=["Husniddin","Muhammad","Hojiakbar","Sarbarbek","To'lqinov"]
-ism=r.choice(ismlar)
-print(ism)
+# ismlar=["Husniddin","Muhammad","Hojiakbar","Sarbarbek","To'lqinov"]
+# ism=r.choice(ismlar)
+# print(ism)
+
 
   
