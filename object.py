@@ -27,6 +27,22 @@
 #         return self.nomi
 #     def get_students(self):
 #         return []
+
+
+class Shaxs:
+    def __init__(self,ism,familiya,passport,tyil):
+        self.ism=ism
+        self.familiya=familiya
+        self.passport=passport
+        self.tyil=tyil
+    def get_info(self):
+        info=f" Ism : {self.ism}\n Familya : {self.familiya}\n Passport seriya : {self.passport}\n Tug'ulfan yil : {self.tyil}"
+        return info
+    def get_age(self,yil):
+        return yil - self.tyil
+
+inson=Shaxs("Hojiakbar","Azimov","AD1234569",2005)
+print(inson.get_info())
         
 
         
