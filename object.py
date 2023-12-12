@@ -39,11 +39,36 @@ class Shaxs:
         info=f" Ism : {self.ism}\n Familya : {self.familiya}\n Passport seriya : {self.passport}\n Tug'ulfan yil : {self.tyil}"
         return info
     def get_age(self,yil):
-        return yil - self.tyil
+        return f"{self.ism} {self.familiya} hozirda {yil - self.tyil} yoshda" 
 
-inson=Shaxs("Hojiakbar","Azimov","AD1234569",2005)
-print(inson.get_info())
-        
+
+class Talaba(Shaxs):
+    def __init__(self, ism, familiya, passport, tyil,idraqam,manzil):
+        super().__init__(ism, familiya, passport, tyil)
+        self.idraqam=idraqam
+        self.bosqich=1
+        self.manzil=manzil 
+    def get_id(self):
+        return f"{self.ism} {self.familiya} ning ID raqami : {self.idraqam}" 
+    def get_bosqich(self):
+        return f"{self.ism} {self.familiya} {self.bosqich}-da" 
+    def get_info(self):
+        info=f" Ism : {self.ism}\n Familya : {self.familiya}\n Passport seriya : {self.passport}\n Tug'ulfan yil : {self.tyil}\n ID raqami : {self.idraqam}\n Bosqich : {self.bosqich}"
+        return info
+class Manzil:
+    def __init__(self,uy,kocha,tuman,viloyat):
+        self.uy=uy
+        self.kocha=kocha
+        self.tuman=tuman
+        self.viloyat=viloyat
+    def get_manzil(self):
+        manzil=f"{self.viloyat} viloyati {self.tuman} tumani {self.kocha} ko'chasi {self.uy}-uy"
+        return manzil
+
+talaba1_manzil=Manzil(221,"Dulkushod","Baliqchi","Andijon")
+talaba1=Talaba("Hojiakbar","Azimov","AD1234567",2005,"NO1234567",talaba1_manzil)
+print(talaba1.manzil.get_manzil( ))
+
 
         
     
