@@ -69,27 +69,53 @@
 # talaba1=Talaba("Hojiakbar","Azimov","AD1234567",2005,"NO1234567",talaba1_manzil)
 # print(talaba1.get_info())
 
-class Qidir:
-    def __init__(self,name,lastname,tyil,passport_id,id_raqam):
-        self.name=name
-        self.lastname=lastname
-        self.tyil=tyil
-        self.passport_id=passport_id
-        self.id_raqam=id_raqam
-    def get_info(self):
-        info=f" Ism : {self.name}\n Familiya : {self.lastname}\n Tug'ulgan yil : {self.tyil}\n Passport ID : {self.passport_id}\n ID raqam : {self.id_raqam}"
-        return info
-    def get_age(self,yil):
-        return yil - self.tyil
-    def qidiruv(self):
-        idRaqam=input("ID raqam kiriting: ")
-        if idRaqam == self.id_raqam:
-            print(talaba2.get_info())
+# class Qidir:
+#     def __init__(self,name,lastname,tyil,passport_id,id_raqam):
+#         self.name=name
+#         self.lastname=lastname
+#         self.tyil=tyil
+#         self.passport_id=passport_id
+#         self.id_raqam=id_raqam
+#     def get_info(self):
+#         info=f" Ism : {self.name}\n Familiya : {self.lastname}\n Tug'ulgan yil : {self.tyil}\n Passport ID : {self.passport_id}\n ID raqam : {self.id_raqam}"
+#         return info
+#     def get_age(self,yil):
+#         return yil - self.tyil
+#     def qidiruv(self):
+#         idRaqam=input("ID raqam kiriting: ")
+#         if idRaqam == self.id_raqam:
+#             print(talaba2.get_info())
+#         else:
+#             print("Bunday ID raqamga ega talaba topilmadi!!!")
+# talaba1=Qidir("Hojiakbar","Azimov",2005,"AD1234567","N%1234567 \t|\t")
+# talaba2=Qidir("Husniddin","Sadriddinov",2005,"AD7654321","N%7654321")
+# print(talaba1.qidiruv())
+
+from uuid import uuid4
+class Avto:
+    def __init__(self,make,model,rang,yil,narh,km,id):
+        self.make=make
+        self.model=model
+        self.rang=rang
+        self.yil=yil
+        self.narh=narh
+        self.__km=km
+        self.__id=uuid4()
+    def get_km(self):
+        return self.__km
+    def get_id(self):
+        return self.__id
+    def add_km(self,km):
+        if km > 0:
+            self.__km += km
         else:
-            print("Bunday ID raqamga ega talaba topilmadi!!!")
-talaba1=Qidir("Hojiakbar","Azimov",2005,"AD1234567","N%1234567")
-talaba2=Qidir("Husniddin","Sadriddinov",2005,"AD7654321","N%7654321")
-print(talaba2.qidiruv())
+            print("mashina km kamayritib bo'lmadi ")
+    def get_info(self):
+        info=f"Avtomabil : {self.make}\n Model : {self.model}\n Rang : {self.rang}\n Yil : {self.yil} \n Narx : {self.narh}\n : KM : {self.__km}\n ID : {self.__id} "
+avto1=Avto("mers","x6",'qora',2004,50000,400000,uuid4())
+print(avto1.get_info())
+        
+
 
         
 
